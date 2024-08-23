@@ -1,0 +1,18 @@
+class Solution {
+    public static void nTriangle(int n) {
+        // Write your code here
+        for(int i=1;i<=n;i++){
+            for(int j=1;j<=i;j++){
+                System.out.print(i+" ");
+            }
+            System.out.println();
+        }
+    }
+}
+class Main {
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+        int n = 5;  
+        solution.nTriangle(n);
+    }
+}
